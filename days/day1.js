@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const data = fs.readFileSync('inputs/myNums.txt', 'utf8');
+const data = fs.readFileSync('inputs/day1.txt', 'utf8');
 
 const list = data.split('\n').map(function(item){
     return parseInt(item, 10)
