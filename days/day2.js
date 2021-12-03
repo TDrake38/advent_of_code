@@ -1,7 +1,4 @@
 // Not not my code. Just trying to learn. 
-
-
-
 const fs = require('fs')
 const data = fs.readFileSync('../inputs/day2.txt', 'utf8').split('\r\n');
 
